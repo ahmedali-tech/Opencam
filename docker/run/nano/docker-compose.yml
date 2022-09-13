@@ -2,7 +2,8 @@ version: "2.3"
 services:
   opendatacam:
     restart: always
-    image: opendatacam/opendatacam:v3.0.2-nano
+    build: ./docker/build/nano/
+#     image: opendatacam/opendatacam:v3.0.2-nano
     privileged: true
     volumes:
       - './config.json:/var/local/opendatacam/config.json'
