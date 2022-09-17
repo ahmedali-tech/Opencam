@@ -34,7 +34,7 @@ class InitializingView extends Component {
     return (
       <div className="initializing-view pt-20 pb-20 pr-12 pl-12">
         {!this.props.requestedFileRecording && !this.props.droppedFile &&
-          <h2 className="text-white text-3xl font-bold">Initializing OpenDataCam</h2>
+          <h2 className="text-white text-3xl font-bold">Initializing</h2>
         }
         {this.props.requestedFileRecording &&
           <h2 className="text-white text-3xl font-bold">Restarting to process video file {this.props.fileName.split("/").pop()}</h2>
