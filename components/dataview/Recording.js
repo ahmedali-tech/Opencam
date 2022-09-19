@@ -77,7 +77,7 @@ class Recording extends PureComponent {
           {this.props.countingAreas.size > 0 && (
             <div className="flex flex-initial flex-col rounded bg-white text-black shadow m-2 p-4">
               <div className="flex items-end justify-between">
-                <h3 className="mr-3 text-xl font-bold">Counter</h3>
+                <h3 className="mr-3 text-xl font-bold">Zaehlung</h3>
                 <div>
                   <div className="font-medium mr-2 inline-block">Download:</div>
                   <a
